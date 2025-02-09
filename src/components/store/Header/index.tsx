@@ -1,11 +1,13 @@
+import { Menu } from "./Menu";
 import TopBar from "./TopBar";
 
 export default function Header (){
     return (
         <div>
             <TopBar
-                msgs={['teste1', 'teste2']}
+                msgs={['Free shipping on U.S. orders $25 or more.', 'Free shipping on U.S. orders $25 or more.', 'Free shipping on U.S. orders $25 or more.', 'Free shipping on U.S. orders $25 or more.']}
             />
+            <Menu />
         </div>
     )
 }
