@@ -1,7 +1,13 @@
+import Footer from "@/components/store/Footer";
+import Header from "@/components/store/Header";
 
 
 export default function Home() {
   return (
-    <div>home page</div>
+    <div>
+      <Header />
+      home page
+      <Footer />
+    </div>
   );
 }
