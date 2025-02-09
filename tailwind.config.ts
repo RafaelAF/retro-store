@@ -11,6 +11,13 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        "d-black": "#060707",
+        "d-orange": "#EF9854",
+        "d-blue": "#BAE1EB",
+        "d-purple": "#C8B6E8",
+        "d-pink": "#ED98DC",
+        "d-green": "#D9E8B6",
+        "d-nude": "#FFF8F0",
       },
     },
   },
