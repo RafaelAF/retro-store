@@ -8,17 +8,23 @@ export const Menu = () => {
                     <Logo />
                 </div>
                 <nav className="flex flex-1">
-                    <Link href={'#'} >Payday Deals</Link>
-                    <Link href={'#'} >Best Seller</Link>
-                    <Link href={'#'} >Top</Link>
-                    <Link href={'#'} >Bottom</Link>
-                    <Link href={'#'} >Lifestyle</Link>
-                    <Link href={'#'} >About</Link>
+                    <Link href={'#'} className="p-4 flex-1 whitespace-nowrap text-center border-r border-r-d-black">Payday Deals</Link>
+                    <Link href={'#'} className="p-4 flex-1 whitespace-nowrap text-center border-r border-r-d-black">Best Seller</Link>
+                    <Link href={'#'} className="p-4 flex-1 whitespace-nowrap text-center border-r border-r-d-black">Top</Link>
+                    <Link href={'#'} className="p-4 flex-1 whitespace-nowrap text-center border-r border-r-d-black">Bottom</Link>
+                    <Link href={'#'} className="p-4 flex-1 whitespace-nowrap text-center border-r border-r-d-black">Lifestyle</Link>
+                    <Link href={'#'} className="p-4 flex-1 whitespace-nowrap text-center border-r border-r-d-black">About</Link>
                 </nav>
                 <div className="px-4 py-[14.5px] flex gap-7">
-                    <span>a</span>
-                    <span>a</span>
-                    <span>a</span>
+                    <span className="w-[22px] h-[22px]">
+                      <SearchIcon />
+                    </span>
+                    <span className="w-[22px] h-[22px]">
+                      <UserIcon />
+                    </span>
+                    <span className="w-[22px] h-[22px]">
+                      <WalletIcon />
+                    </span>
                 </div>
             </div>
         </div>
@@ -26,6 +32,7 @@ export const Menu = () => {
 }
 
 import * as React from "react"
+import { SearchIcon, UserIcon, WalletIcon } from "./Icons"
 
 function Logo() {
   return (
