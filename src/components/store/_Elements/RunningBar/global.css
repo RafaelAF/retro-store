@@ -1,0 +1,21 @@
+@keyframes scroll {
+    0% {
+        transform: translateX(1000px);
+    }
+
+    100% {
+        transform: translateX(calc(-250px * 7));
+    }
+}
+
+.slide-track {
+    animation: scroll 25s linear infinite;
+    display: flex;
+    width: calc(250px * 14);
+    /* Ajustar conforme o número de elementos */
+}
+
+.slide {
+    /* height: 100px;
+    width: 250px; */
+}

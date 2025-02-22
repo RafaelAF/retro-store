@@ -1,4 +1,10 @@
 
+[21-02-2025]
+- Slider da home
+- Barra de transicao de texto abaixo do slider
+- ajuste no top bar
+- inicio da pdp
+
 [18-02-2025]
 - transicao de top bar
 - menu

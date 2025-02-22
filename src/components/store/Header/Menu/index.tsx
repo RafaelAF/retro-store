@@ -3,7 +3,7 @@ import Link from "next/link"
 export const Menu = () => {
     return (
         <div className="w-full py-5">
-            <div className="flex max-w-5xl w-full mx-auto border border-d-black">
+            <div className="flex max-w-[1232px] w-full mx-auto border border-d-black">
                 <div className="border border-r-d-black flex items-center px-4">
                     <Logo />
                 </div>

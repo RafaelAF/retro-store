@@ -5,13 +5,14 @@ type Props = {
 }
 
 export default function TopBar ({msgs}: Props){
+    const mymsgs = [...msgs, ...msgs, ...msgs]
     return (
         <div className="w-full max-h-[59px] gap-5 bg-white py-5 flex relative overflow-hidden">
             <div className="flex slide-track">
-              {msgs.length > 0 && msgs.map((item, index) => (
+              {mymsgs.length > 0 && mymsgs.map((item, index) => (
                   <div key={index} className="flex gap-2 ml-2 items-center slide">
                       <p className="whitespace-nowrap">{item}</p>
-                      {msgs.length !== index + 1 && <Divider />}
+                      {mymsgs.length !== index + 1 && <Divider />}
                   </div>
               ))}
             </div>
