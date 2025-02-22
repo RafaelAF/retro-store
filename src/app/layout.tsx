@@ -7,13 +7,14 @@ import "./globals.css";
 const roboto = Roboto({
   variable: "--font-roboto",
   subsets: ["latin"],
-  weight: "400"
+  weight: "400",
 })
 
 const lexend = Lexend({
   variable: "--font-lexend",
   weight: "300",
-  style: ["normal"]
+  style: ["normal"],
+  subsets: ["latin"]
 })
 
 export const metadata: Metadata = {

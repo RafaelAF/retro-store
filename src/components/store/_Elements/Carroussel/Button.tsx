@@ -8,15 +8,15 @@ type Props = {
 
 export const ButtonCarroussel = ({ alinment, text, url }: Props) => {
 
-    let align = ''
+    // let align = ''
 
-    if(alinment == 'CENTER'){
-        align = 'bottom-10'
-    }else if(alinment == 'LEFT'){
+    // if(alinment == 'CENTER'){
+    //     align = 'bottom-10'
+    // }else if(alinment == 'LEFT'){
 
-    }else{
+    // }else{
 
-    }
+    // }
 
     return (
         <Link href={url} className={`absolute ${alinment}`}>{text}</Link>
